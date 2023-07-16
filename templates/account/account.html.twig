@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte sur La Boutique Angevine{% endblock %}
+
+{% block content %}
+    <h1>Mon compte</h1>
+
+    <div>
+        <p>
+            Bienvenue {{ app.user.firstname }} sur la gestion de votre compte
+        </p>
+        <br>
+        <p>
+            Voici les modifications possible : <br>
+            - <a href="{{ path('password') }}">Modifier votre mot de passe</a><br>
+            - Mes commandes
+        </p>
+    </div>
+{% endblock %}
