@@ -1,0 +1,15 @@
+.nav-bar-item-custom a {
+    color: chocolate;
+}
+
+.nav-bar-item-custom {
+    color: white;
+}
+
+.footer-custom{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfeaff;
+}
