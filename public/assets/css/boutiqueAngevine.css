@@ -13,3 +13,21 @@
     width: 100%;
     background-color: #dfeaff;
 }
+
+.product-item h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 30px;
+}
+
+.product-item .product-subtitle{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.product-item .product-price{
+    font-size: 15px;
+    font-weight: bold;
+}
